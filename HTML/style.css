@@ -3,10 +3,20 @@
 }*/
 
 body {
-	background-image: url(https://i.ibb.co/TwsLX1X/clay-banks-1-Uj0-Hmq-QFGk-unsplash.jpg);">
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-color:#FF2348;
 }
+
+header {
+
+	background-color:#FF2348;
+
+}
+
+/* footer {
+	background-color: red;
+} */
+
+
 h2 {
 	color: black;
 	text-align: center;
@@ -14,9 +24,6 @@ h2 {
 }
 
 div {
-  background-color: lightgrey;
-  width: 300px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
-}
+  text-align: center;
+} 
+

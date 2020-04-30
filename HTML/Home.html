@@ -13,8 +13,9 @@
 
     <!-- Styles -->
     <link href="styletwo.css" rel="stylesheet">
-    <link href="styleone.css" rel="stylesheet">
-    <link href="bootstrap.css" rel="stylesheet">
+    <link href="bootstrap.css" rel="stylesheet"> 
+    <link href="style.css" rel="stylesheet">
+
 
 
     <!-- Favicon --> 
@@ -22,40 +23,29 @@
    <!-- end of preloader -->
 
       <!-- Header -->
-    <header class="header">
+    <!-- <header class="header">
+        
+    </header>  -->
+     <!-- end of header -->
+
+    <body>
+
         <div class="container">
             <div class="row">
                 <div class="col-lg-20">
                     <div class="text-container">
-                        <img class="img-fluid" src="img/onboarding.png" alt="image">
-                        <img onclick="GoToAppStore()" src="img/appledownload.svg" alt="apple download" style="width:250px;height:600px;">
-                        <img src="img/androiddownload.svg" alt="android download" style="width:250px;height:600px;">
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </header> <!-- end of header -->
-    <!-- end of header -->
 
-    <!-- Footer -->
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-20">
-                    <div class="footer-col first">
-                            <ul class="list-unstyled li-space-lg p-small">
-                            <li><a href="TermsConditions.html">Terms & Conditions</a></li>
-                            <li><a href="privacypolicy.html">Privacy Policy</a></li>
-                        </ul>
-                    </div> <!-- end of footer-col -->
+                        <img class="img-fluid" src="img/onboarding.png" alt="image">
+                        <img onclick="GoToAppStore()" src="img/appledownload.svg" alt="apple download" style="width:250px;height:200px;">
+                        <img onclick="goToGooglePlayStore()" src="img/androiddownload.svg" alt="android download" style="width:250px;height:200px;">
+                    </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of footer -->  
-    <!-- end of footer -->
+
+        </div> 
+                    
+
+    
 
 
     <script>
@@ -63,7 +53,30 @@
         
             // Put a function here and then add the following to be excuted in your function           
             //window.location.replace("http://stackoverflow.com")
+
+            function goToGooglePlayStore(){
+                alert("Currently under development, keep posted for updates")
+            }
     </script>
 
 </body>
+
+<!-- Footer -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-20">
+                <div class="footer-col first">
+                        <ul class="list-unstyled li-space-lg p-small">
+                        <li><a href="TermsConditions.html">Terms & Conditions</a></li>
+                        <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                    </ul>
+                </div> <!-- end of footer-col -->
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div> <!-- end of footer -->  
+<!-- end of footer -->
+
+
 </html>

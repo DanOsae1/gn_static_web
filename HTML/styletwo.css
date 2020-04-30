@@ -728,7 +728,7 @@ input[type='checkbox'] {
 	overflow: hidden;
 	padding-top: 8rem;
 	padding-bottom: 3rem;
-	background-color: #f7fafd;
+	background-color:#FF2348;
 	text-align: center;
 }
 
@@ -1310,15 +1310,16 @@ input[type='checkbox'] {
 .footer {
 	padding-top: 4rem;
 	padding-bottom: 1rem;
-	border-top: 1px solid #c8d4d6;
-	background-color: #f7fafd;
+	/* border-top: 1px solid #c8d4d6; */
+	background-color: #FF2348;
 }
 
 .footer p,
 .footer h5,
 .footer ul,
 .footer a {
-	color: #999;
+	color: white;
+	text-align: center;
 }
 
 .footer a {
@@ -1341,12 +1342,12 @@ input[type='checkbox'] {
 	margin-bottom: 0.375rem;
 }
 
-.footer .list-unstyled .fab,
+/* .footer .list-unstyled .fab,
 .footer .list-unstyled .fas {
 	width: 0.875rem;
 	font-size: 0.875rem;
 	line-height: 1.5rem;
-}
+} */
 
 .footer .list-unstyled .media-body {
 	margin-left: 0.625rem;
